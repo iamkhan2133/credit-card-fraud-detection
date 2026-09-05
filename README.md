@@ -1,39 +1,58 @@
 # Credit Card Fraud Detection using Machine Learning
 
-## Overview
+## 📌 Project Overview
 
-## Objective
+This project implements an end-to-end machine learning pipeline for detecting fraudulent credit card transactions.
 
-## Dataset
+The project was developed as part of the Devixo Solutions AI/ML Internship – Week 3 Task 03.
 
-## Project Workflow
+The complete workflow includes data preparation, data cleaning, feature engineering, feature selection, data preprocessing, machine learning model training, model evaluation, feature importance analysis, and model comparison.
 
-## Data Preprocessing
+---
 
-## Feature Engineering
+## 🎯 Objective
 
-## Feature Selection
+The main objective of this project is to develop machine learning models capable of identifying fraudulent credit card transactions from legitimate transactions.
 
-## Class Imbalance Handling
+The project follows an end-to-end machine learning workflow:
 
-## Machine Learning Models
+1. Data Collection
+2. Data Exploration
+3. Data Cleaning
+4. Handling Missing Values
+5. Duplicate Detection
+6. Feature Engineering
+7. Feature Selection
+8. Data Preprocessing
+9. Handling Class Imbalance
+10. Model Training
+11. Model Evaluation
+12. Feature Importance Analysis
+13. Model Comparison
+14. Best Model Selection
+15. Model Saving
 
-## Model Evaluation
+---
 
-## Results
+## 📊 Dataset
 
-## Confusion Matrix Analysis
+The project uses a real-world credit card transaction dataset containing:
 
-## Feature Importance
+- 1,296,675 transaction records
+- 22 input features
+- 1 target variable
 
-## Technologies Used
+### Target Variable
 
-## Project Structure
+`is_fraud`
 
-## How to Run
+Target values:
 
-## Limitations
+- `0` = Legitimate transaction
+- `1` = Fraudulent transaction
 
-## Future Improvements
+### Dataset Shape
 
-## Internship Information
+```text
+Rows: 1,296,675
+Columns: 23
